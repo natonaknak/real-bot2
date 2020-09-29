@@ -1,20 +1,19 @@
 {
-  "name": "real-bot",
+  "name": "v12-discordjs-bot",
   "version": "1.0.0",
   "description": "",
   "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./src/bot.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/natonaknak/real-bot.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/natonaknak/real-bot/issues"
-  },
-  "homepage": "https://github.com/natonaknak/real-bot#readme"
+  "dependencies": {
+    "ansi-colors": "^4.1.1",
+    "discord.js": "^12.0.2",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.5",
+    "table": "^5.4.6"
+  }
 }
